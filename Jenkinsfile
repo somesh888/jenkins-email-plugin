@@ -1,5 +1,5 @@
 /*
- * check out the below documentation link for more options regarding this topic:
+ * check out the below documentation link for more options:
  * https://github.com/jenkins-infra/pipeline-library/
  */
 buildPlugin(useContainerAgent: true, configurations: [
