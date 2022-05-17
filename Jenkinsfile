@@ -5,7 +5,7 @@
 buildPlugin(useContainerAgent: true, configurations: [
   // Test the long-term support end of the compatibility spectrum (i.e., the minimum required
   // Jenkins version).
-  [ platform: 'linux', jdk: '15', jenkins: null ],
+  [ platform: 'linux', jdk: '18', jenkins: null ],
 
   // Test the common case (i.e., a recent LTS release) on both Linux and Windows.
   [ platform: 'linux', jdk: '11', jenkins: '2.332.1' ],
